@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "feamc",
+	"version": "${version}",
+
+	"name": "FeaMC",
+	"description": "Fast Minecraft optimization mod",
+	"authors": [
+		"tfhmc"
+	],
+
+	"license": "MIT",
+	"icon": "assets/feamc/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"modmenu": [
+			"tf.feamc.mod.config.ModMenu"
+		]
+	},
+	"mixins": [
+		"feamc.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"fabric": "*",
+		"minecraft": ">=1.21"
+	}
+}

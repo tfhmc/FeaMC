@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "tf.feamc.mod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"RenderMixin",
+		"ChestMixin",
+		"EnderChestMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
